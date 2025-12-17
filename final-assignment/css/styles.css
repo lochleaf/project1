@@ -12,15 +12,48 @@ html{
     background-size: cover;
 }
 
-body {
+.toptext {
+    position: absolute;
+    top: 5%;
+    left: 5.5%;
+    right: 0%;
+    z-index: 2;
+    display: flex;
+    gap: 50px;
+    
+}
+
+.paper {
     background-image: url("../images/oldpaper-edgehalf1.png");
     background-repeat: no-repeat;
     position: absolute;
     top: -25%;
     left: -2%;
     right: 0%;
-    height: 2200px;
-    width: 2200px;
-    background-size: contain;
-    z-index: 1;
+    height: 450px;
+    width: 1911px;
+    background-size: cover;
+    z-index: -1;
+    
+}
+
+.text-button:hover {
+    text-decoration: none;
+    color: darkred;
+    font-size: 42px;
+    font-family: 'Rye', sans-serif;
+}
+
+.text-button {
+    background: none;
+    border: none;
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    font-family: 'Rye', sans-serif;
+}
+
+@font-face {
+    font-family: 'Rye';
+    src: url(../font-rye/Rye-Regular.ttf);
 }
