@@ -12,17 +12,6 @@ html{
     background-size: cover;
 }
 
-.toptext {
-    position: absolute;
-    top: 5%;
-    left: 5.5%;
-    right: 0%;
-    z-index: 2;
-    display: flex;
-    gap: 50px;
-    
-}
-
 .paper {
     background-image: url("../images/oldpaper-edgehalf1.png");
     background-repeat: no-repeat;
@@ -34,6 +23,17 @@ html{
     width: 1911px;
     background-size: cover;
     z-index: -1;
+    
+}
+
+.toptext {
+    position: absolute;
+    top: 5%;
+    left: 5.5%;
+    right: 0%;
+    z-index: 2;
+    display: flex;
+    gap: 50px;
     
 }
 
@@ -56,4 +56,14 @@ html{
 @font-face {
     font-family: 'Rye';
     src: url(../font-rye/Rye-Regular.ttf);
+}
+
+.img-redlip {
+    background: white;
+    padding: 8px;
+    width: 600px;
+    height: 380px;
+    position: fixed;
+    top: 20%;
+    left: 5%;
 }
