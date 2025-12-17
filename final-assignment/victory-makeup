@@ -19,6 +19,12 @@
                     <a href="donations.html" class="text-button"><b>Donations</b></a>
                     <a href="donations.html" class="text-button"><b>About us</b></a>
                 </div>
+                <img src="images/1935-powders.jpg" alt="powder img" class="powderimg" />
+                <img src="images/1935-rouge.jpg" alt="rouge img" class="rougeimg" />
+                <img src="images/eye-shado.jpg" alt="eyeshado img" class="eyeshadoimg" />
+                <img src="images/1939-arden-nail.jpg" alt="nailcolor img" class="nailimg" />
+                <img src="images/victory1.jpg" alt="prices img" class="pricesimg" />
+                <img src="images/chart-makeup.png" alt="chart img" class="chartimg" />
         </body>
 
 

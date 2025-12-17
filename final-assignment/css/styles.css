@@ -40,7 +40,7 @@ html{
 .text-button:hover {
     text-decoration: none;
     color: darkred;
-    font-size: 42px;
+    font-size: 41px;
     font-family: 'Rye', sans-serif;
 }
 
@@ -147,4 +147,51 @@ h2 {
 
 .textbuttondeal {
     text-decoration: none;
+}
+
+.powderimg {
+    width: 450px;
+    height: 285px;
+    position: fixed;
+    top: 73%;
+    left: 26.5%;
+}
+
+.eyeshadoimg {
+    width: 450px;
+    height: 285px;
+    position: fixed;
+    top: 73%;
+    left: 51%;
+}
+
+.rougeimg {
+    width: 450px;
+    height: 285px;
+    position: fixed;
+    top: 73%;
+    left: 75.5%;
+}
+
+.chartimg {
+    width: 304px;
+    height: 394px;
+    position: fixed;
+    top: 20%;
+    left: 62.5%;
+    
+}
+
+.pricesimg {
+    width: 600px;
+    height: 455px;
+    position: fixed;
+    top: 20%;
+    left: 30%;
+}
+
+.nailimg {
+    position: fixed;
+    top: 20%;
+    left: 79.5%;
 }
