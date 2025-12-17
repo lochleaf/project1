@@ -64,8 +64,8 @@ html{
     width: 800px;
     height: 506px;
     position: fixed;
-    top: 20%;
-    left: 5%;
+    top: 18%;
+    left: 8%;
 }
 
 h2 {
@@ -76,8 +76,8 @@ h2 {
     color: darkblue;
     font-size: 45px;
     position: fixed;
-    top: 68.5%;
-    left: 22.5%;
+    top: 66.5%;
+    left: 17.5%;
 }
 
 .boder-img {
@@ -88,6 +88,63 @@ h2 {
     height: 100px;
     display: inline-block;
     position: fixed;
+    top: 68%;
+    left: 15%;
+}
+
+.dealimg{
+    width: 184px;
+    height: 265px;
+    background: white;
+    padding: 8px;
+
+    position: fixed;
+    top: 72%;
+    left: 3%;
+}
+
+.imgproductv {
+    width: 350px;
+    height: 280px;
+    background: white;
+    padding: 8px;
+
+    position: fixed;
     top: 70%;
-    left: 20%;
+    left: 43%;
+}
+
+.aboutvimg {
+    width: 652px;
+    height: 839px;
+    background: white;
+    padding: 8px; 
+
+    position: fixed;
+    top: 16%;
+    left: 63.5%;
+}
+
+.backgrounddeal {
+    background-color: aliceblue;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 15px;
+    width: 400px;
+    position: fixed;
+    top: 79%;
+    left: 17%;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.buttondeal {
+    font-size: 30px;
+    position: fixed;
+    top: 94%;
+    left: 23%;
+}
+
+.textbuttondeal {
+    text-decoration: none;
 }
