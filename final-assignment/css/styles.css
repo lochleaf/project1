@@ -382,3 +382,19 @@ textarea {
     line-height: 0.9;
     word-spacing: normal;
 }
+
+.militarywomen {
+    width: 519px;
+    height: 667px;
+    position: fixed;
+    top: 240px;
+    left: 1330px;
+}
+
+.victorywomen {
+    width: 668px;
+    height: 302px;
+    position: fixed;
+    top: 240px;
+    left: 100px;
+}
