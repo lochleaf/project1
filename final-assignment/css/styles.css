@@ -60,6 +60,11 @@ html{
     src: url(../font-rye/Rye-Regular.ttf);
 }
 
+@font-face {
+    font-family: 'Rouge';
+    src: url(../font-rouge-script/RougeScript-Regular.ttf);
+}
+
 .img-redlip {
     background: white;
     padding: 8px;
@@ -238,4 +243,142 @@ textarea {
     position: absolute;
     top: 97%;
     left: 2%;
+}
+
+.letter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/oldpaper-edge1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-sizing: border-box;
+    width: 450px;
+    height: 390px;
+    position: fixed;
+    top: 18%;
+    left: 15%;
+    transform: translateX(-50%);
+    padding: 60px;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Rouge', sans-serif;
+    font-size: 26px;
+    line-height: 0.9;
+    word-spacing: normal;
+}
+
+.letter2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/oldpaper-edge1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-sizing: border-box;
+    width: 450px;
+    height: 390px;
+    position: fixed;
+    top: 18%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 60px;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Rouge', sans-serif;
+    font-size: 26px;
+    line-height: 0.9;
+    word-spacing: normal;
+}
+
+.letter3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/oldpaper-edge1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-sizing: border-box;
+    width: 450px;
+    height: 390px;
+    position: fixed;
+    top: 18%;
+    left: 85%;
+    transform: translateX(-50%);
+    padding: 60px;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Rouge', sans-serif;
+    font-size: 26px;
+    line-height: 0.9;
+    word-spacing: normal;
+}
+
+.letter4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/oldpaper-edge1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-sizing: border-box;
+    width: 450px;
+    height: 390px;
+    position: fixed;
+    top: 60%;
+    left: 85%;
+    transform: translateX(-50%);
+    padding: 60px;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Rouge', sans-serif;
+    font-size: 26px;
+    line-height: 0.9;
+    word-spacing: normal;
+}
+
+.letter5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/oldpaper-edge1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-sizing: border-box;
+    width: 450px;
+    height: 390px;
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 60px;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Rouge', sans-serif;
+    font-size: 26px;
+    line-height: 0.9;
+    word-spacing: normal;
+}
+
+.letter6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/oldpaper-edge1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-sizing: border-box;
+    width: 450px;
+    height: 390px;
+    position: fixed;
+    top: 60%;
+    left: 15%;
+    transform: translateX(-50%);
+    padding: 60px;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Rouge', sans-serif;
+    font-size: 26px;
+    line-height: 0.9;
+    word-spacing: normal;
 }
