@@ -528,3 +528,114 @@ option {
     word-spacing: normal;
 
 }
+
+.img-eli {
+    position: fixed;
+    top: 210px;
+    left: 80px;
+    /*width: 253px;
+    height: 386px;*/
+    width: 380px;
+    height: 580px;
+    background: white;
+    padding: 8px;
+}
+
+.img-building {
+    position: fixed;
+    top: 650px;
+    left: 512px;
+    background: white;
+    padding: 8px;
+}
+
+.infoaboutus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/oldpaper-edge1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-sizing: border-box;
+    width: 550px;
+    height: 460px;
+    position: fixed;
+    top: 14%;
+    left: 41%;
+    transform: translateX(-50%);
+    padding: 60px;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Rouge', sans-serif;
+    font-size: 26px;
+    line-height: 0.9;
+    word-spacing: normal;
+
+}
+
+.infoaboutus2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/oldpaper-edge1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-sizing: border-box;
+    width: 450px;
+    height: 260px;
+    position: fixed;
+    top: 73%;
+    left: 14%;
+    transform: translateX(-50%);
+    padding: 60px;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Rouge', sans-serif;
+    font-size: 26px;
+    line-height: 0.9;
+    word-spacing: normal;
+
+}
+
+.infosupport {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/oldpaper-edge1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-sizing: border-box;
+    width: 750px;
+    height: 760px;
+    position: fixed;
+    top: 26%;
+    left: 78%;
+    transform: translateX(-50%);
+    padding: 60px;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Rouge', sans-serif;
+    font-size: 26px;
+    line-height: 0.9;
+    word-spacing: normal;
+
+}
+
+.support {
+    font-size: 55px;
+    position: fixed;
+    top: 150px;
+    background-image: url(../images/oldpaper-edge1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-sizing: border-box;
+    width: 265px;
+    height: 95px;
+    position: fixed;
+    top: 14%;
+    left: 71%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
