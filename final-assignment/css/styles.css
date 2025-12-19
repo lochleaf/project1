@@ -504,3 +504,27 @@ label {
 option {
     text-align: center;
 }
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/oldpaper-edge1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-sizing: border-box;
+    width: 850px;
+    height: 464px;
+    position: fixed;
+    top: 53%;
+    left: 24%;
+    transform: translateX(-50%);
+    padding: 60px;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Rouge', sans-serif;
+    font-size: 26px;
+    line-height: 0.9;
+    word-spacing: normal;
+
+}
