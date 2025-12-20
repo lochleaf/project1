@@ -710,7 +710,7 @@ option {
     font-size: 55px;
     position: fixed;
     top: 150px;
-    background-image: url("images/oldpaper-edge1.png");
+    background-image: url(".../images/oldpaper-edge1.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     box-sizing: border-box;
@@ -768,7 +768,7 @@ option {
 
 /* background for alert text box controls size, position, and paper image */
 .alert-box {
-    background-image: url("images/oldpaper-edge1.png");
+    background-image: url(".../images/oldpaper-edge1.png");
     background-size: 100% 100%;
     width: 420px;
     padding: 40px;
