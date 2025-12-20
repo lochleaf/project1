@@ -608,9 +608,9 @@ option {
     padding: 60px;
     flex-direction: column;
     text-align: center;
-    font-family: 'Rouge', sans-serif;
+    font-family: 'Rye', sans-serif;
     font-size: 26px;
-    line-height: 0.9;
+    line-height: 1;
     word-spacing: normal;
 }
 
@@ -645,4 +645,60 @@ option {
     top: 840px;
     left: 174px;
     z-index: 10;
+}
+
+.infosupport h4 {
+    position: relative;
+    top: 25px;
+    align-self: flex-start;
+    text-align: left;
+    font-size: 10px;
+}
+
+.alert-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.35); /* transparent overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.alert-box {
+    background-image: url("../images/oldpaper-edge1.png");
+    background-size: 100% 100%;
+    width: 420px;
+    padding: 40px;
+    text-align: center;
+    font-family: 'Rye', sans-serif;
+    font-size: 20px;
+}
+
+.alert-box button {
+    margin-top: 20px;
+    font-family: 'Rye', sans-serif;
+    font-size: 16px;
+    background: none;
+    border: 2px solid black;
+    padding: 6px 16px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.reset {
+    position:absolute;
+    top: 15px;
+    left: 40px;
+    font-size: large;
+}
+
+.resetbutton {
+    width: 15px;
+    height: 15px;
+    position:absolute;
+    left: 30px;
 }

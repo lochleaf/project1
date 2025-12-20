@@ -28,7 +28,7 @@
                     <img src="images/chart-makeup.png" alt="chart img" class="chartimg" />
                 </div>
                     <div class="placenum">    
-                        <form action="victory-makeup" method="get">
+                        <form action="victory-makeup.html" method="get">
                             <label for="Phone">Phone Number:</label>
                             <input type="tel" name="Phone" id="Phone" required>
                             <button type="submit">Submit</button>
@@ -69,7 +69,26 @@
                     <h5>Name of combo and deal</h5>
                     <textarea name="message" rows="4" cols="50"></textarea>
                  </div>
+                         
+                    <div >
+                        <form action method="get" class="reset">
+                            <label> Reset </label>
+                            <button type="submit" class="buttonsize"></button> 
+                        </form>
+                    </div> 
+
             </div>
+
+   
+
+            <div id="alertOverlay" class="alert-overlay hidden">
+                <div class="alert-box">
+                    <p>Thank you! Your request has been received.</p>
+                    <button id="closeAlert">Close</button>
+                </div>
+            </div>
+
+            <script src="../js/java.js"></script>
 
         </body>
 
