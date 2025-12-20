@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+/*----mainpage.html css code start----*/
+
+/*html and body wont scroll side to side or up and down*/
 html, body {
     height: 100%;
     margin: 0;
@@ -7,6 +10,7 @@ html, body {
     overflow-y: hidden;
 }
 
+/*this is the backgound of the page only one image*/
 html{
     background-image: url("../images/background-final-assignemnt.png");
     background-repeat: no-repeat;
@@ -14,6 +18,7 @@ html{
     background-size: cover;
 }
 
+/*this is background for paper at the top of the page for nav system*/
 .paper {
     background-image: url("../images/oldpaper-edgehalf1.png");
     background-repeat: no-repeat;
@@ -28,6 +33,7 @@ html{
     
 }
 
+/*this is the titles for the nav system*/
 .toptext {
     position: absolute;
     top: 5%;
@@ -39,6 +45,7 @@ html{
     
 }
 
+/*this will change color red to tell you if you are hovering on it*/
 .text-button:hover {
     text-decoration: none;
     color: darkred;
@@ -46,6 +53,7 @@ html{
     font-family: 'Rye', sans-serif;
 }
 
+/*this is the text button normal*/
 .text-button {
     background: none;
     border: none;
@@ -54,6 +62,8 @@ html{
     font-size: 40px;
     font-family: 'Rye', sans-serif;
 }
+
+/*New Fonts added */
 
 @font-face {
     font-family: 'Rye';
@@ -65,6 +75,9 @@ html{
     src: url(../font-rouge-script/RougeScript-Regular.ttf);
 }
 
+/*----mainpage.html css code----*/
+
+/*boder for image*/
 .img-redlip {
     background: white;
     padding: 8px;
@@ -75,10 +88,12 @@ html{
     left: 8%;
 }
 
+/*font-family with new font that i added*/
 h2 {
     font-family: 'Rye', sans-serif;
 }
 
+/*text for the word deal*/
 .deal {
     color: darkblue;
     font-size: 45px;
@@ -87,6 +102,7 @@ h2 {
     left: 17.5%;
 }
 
+/*border image with paper edge for the text deal*/
 .boder-img {
     background-image: url(../images/oldpaper-edge1.png);
     background-repeat: no-repeat;
@@ -99,6 +115,7 @@ h2 {
     left: 15%;
 }
 
+/*background border and img*/
 .dealimg{
     width: 184px;
     height: 265px;
@@ -110,6 +127,7 @@ h2 {
     left: 3%;
 }
 
+/*background border and img*/
 .imgproductv {
     width: 350px;
     height: 280px;
@@ -121,6 +139,7 @@ h2 {
     left: 43%;
 }
 
+/*background border and img*/
 .aboutvimg {
     width: 652px;
     height: 839px;
@@ -132,6 +151,7 @@ h2 {
     left: 63.5%;
 }
 
+/*background box white for text*/
 .backgrounddeal {
     background-color: aliceblue;
     box-sizing: border-box;
@@ -145,6 +165,7 @@ h2 {
     word-wrap: break-word;
 }
 
+/*Purchase button position text size*/
 .buttondeal {
     font-size: 30px;
     position: fixed;
@@ -152,10 +173,17 @@ h2 {
     left: 23%;
 }
 
+/*so it doest have line under the word due to href*/
 .textbuttondeal {
     text-decoration: none;
 }
 
+/*----mainpage.html css code end----*/
+
+
+/*---victory-makeup.html css code start----*/
+
+/*img positioning and sizing*/
 .powderimg {
     width: 450px;
     height: 285px;
@@ -164,6 +192,7 @@ h2 {
     left: 26.5%;
 }
 
+/*img positioning and sizing*/
 .eyeshadoimg {
     width: 450px;
     height: 285px;
@@ -172,6 +201,7 @@ h2 {
     left: 51%;
 }
 
+/*img positioning and sizing*/
 .rougeimg {
     width: 450px;
     height: 285px;
@@ -180,6 +210,7 @@ h2 {
     left: 75.5%;
 }
 
+/*img positioning and sizing*/
 .chartimg {
     width: 304px;
     height: 394px;
@@ -189,6 +220,7 @@ h2 {
     
 }
 
+/*img positioning and sizing*/
 .pricesimg {
     width: 600px;
     height: 455px;
@@ -197,17 +229,20 @@ h2 {
     left: 30%;
 }
 
+/*img positioning and sizing*/
 .nailimg {
     position: fixed;
     top: 20%;
     left: 79.5%;
 }
 
+/*textbox size inside the list i made*/
 textarea {
  height: 50px;
  width: 250px;
 }
 
+/*positioning and on list div with colu*/
 .product-option {
     display: flex;
     flex-direction: column;
@@ -216,10 +251,12 @@ textarea {
     transform: translateX(70px);
 }
 
+/*font-sizing*/
 .product-option label {
     font-size: 10px;
 }
 
+/*font-family and position and on the list for title */
 .order-form {
     position: relative;
     z-index: 10;
@@ -230,6 +267,7 @@ textarea {
     font-family: 'Rye', sans-serif;
 }
 
+/*background for list and sizing of the img */
 .backgroundlist {
     background-image: url(../images/oldpaper-edge1.png);
     background-repeat: no-repeat;
@@ -239,12 +277,19 @@ textarea {
     height: 880px;
 }
 
+/*submit button position */
 .placenum {
     position: absolute;
     top: 97%;
     left: 2%;
 }
 
+/*---victory-makeup.html css code End----*/
+
+
+/*---letters.html css code start----*/
+
+/*letter1 of position and size*/
 .letter {
     display: flex;
     justify-content: center;
@@ -268,6 +313,7 @@ textarea {
     word-spacing: normal;
 }
 
+/*letter2 of position and size*/
 .letter2 {
     display: flex;
     justify-content: center;
@@ -291,6 +337,7 @@ textarea {
     word-spacing: normal;
 }
 
+/*letter3 of position and size*/
 .letter3 {
     display: flex;
     justify-content: center;
@@ -314,6 +361,7 @@ textarea {
     word-spacing: normal;
 }
 
+/*letter4 of position and size*/
 .letter4 {
     display: flex;
     justify-content: center;
@@ -337,6 +385,7 @@ textarea {
     word-spacing: normal;
 }
 
+/*letter5 of position and size*/
 .letter5 {
     display: flex;
     justify-content: center;
@@ -360,6 +409,7 @@ textarea {
     word-spacing: normal;
 }
 
+/*letter6 of position and size*/
 .letter6 {
     display: flex;
     justify-content: center;
@@ -383,6 +433,13 @@ textarea {
     word-spacing: normal;
 }
 
+/*---letters.html css code end----*/
+
+
+
+/*---donations.html css code start----*/
+
+/*img sizing and positioning*/
 .militarywomen {
     width: 519px;
     height: 667px;
@@ -391,6 +448,7 @@ textarea {
     left: 1330px;
 }
 
+/*img sizing and positioning*/
 .victorywomen {
     width: 668px;
     height: 302px;
@@ -399,6 +457,7 @@ textarea {
     left: 100px;
 }
 
+/*background for title military donations and placement of it*/
 .donations {
     font-size: 50px;
     position: fixed;
@@ -417,6 +476,7 @@ textarea {
     justify-content: center;
 }
 
+/*background for title send donations and placement of it*/
 .senddonations {
     font-size: 22px;
     position: fixed;
@@ -435,6 +495,7 @@ textarea {
     justify-content: center;
 }
 
+/*background for title join the military and placement of it*/
 .join {
     font-size: 22px;
     position: fixed;
@@ -453,6 +514,7 @@ textarea {
     justify-content: center;
 }
 
+/*background for list of donations and positioning placement*/
 .backgroundnum {
     position: fixed;
     top: 330px;
@@ -471,6 +533,7 @@ textarea {
     box-sizing: border-box;
 }
 
+/*background for list of join the military and positioning placement*/
 .backgroundnum2 {
     position: fixed;
     top: 664px;
@@ -489,6 +552,7 @@ textarea {
     box-sizing: border-box;
 }
 
+/**/
 .anum {
     display: flex;
     flex-direction: column;
@@ -497,6 +561,7 @@ textarea {
     font-family: 'Rye', sans-serif;
 }
 
+/*spacing of between check and text box and text*/
 label {
     line-height: 1.3;
 }
@@ -529,6 +594,13 @@ option {
 
 }
 
+/*---donations.html css code end----*/
+
+
+/*---aboutus.html css code start----*/
+
+
+/*image size position and border*/
 .img-eli {
     position: fixed;
     top: 210px;
@@ -541,6 +613,8 @@ option {
     padding: 8px;
 }
 
+
+/*image size position and border*/
 .img-building {
     position: fixed;
     top: 650px;
@@ -549,6 +623,8 @@ option {
     padding: 8px;
 }
 
+
+/*background for text infomation and placement and sizing and text*/
 .infoaboutus {
     display: flex;
     justify-content: center;
@@ -571,8 +647,11 @@ option {
     line-height: 1.5;
     word-spacing: normal;
 
+
 }
 
+
+/*background for text infomation and placement and sizing and text*/
 .infoaboutus2 {
     display: flex;
     justify-content: center;
@@ -589,8 +668,11 @@ option {
     transform: translateX(-50%);
     padding-bottom: 15px;
 
+
 }
 
+
+/*background for text infomation and placement and sizing and text*/
 .infosupport {
     display: flex;
     justify-content: center;
@@ -614,12 +696,16 @@ option {
     word-spacing: normal;
 }
 
+
+/*text position an d size of the name of the logo*/
 .textlogo {
     font-family: 'Rouge', sans-serif;
     font-size: 26px;
     line-height: 0.9;
 }
 
+
+/*background for text infomation and placement and sizing*/
 .support {
     font-size: 55px;
     position: fixed;
@@ -638,6 +724,8 @@ option {
     justify-content: center;
 }
 
+
+/*position and sizing of the logo img on top of backgroud img*/
 .logowinged {
     width: 170px;
     height: 163px;
@@ -647,6 +735,8 @@ option {
     z-index: 10;
 }
 
+
+/*position of text and size at bottom of background*/
 .infosupport h4 {
     position: relative;
     top: 25px;
@@ -655,6 +745,16 @@ option {
     font-size: 10px;
 }
 
+
+/*---aboutus.html css code end----*/
+
+
+
+
+/*---victory-makeup.js css code start----*/
+
+
+/*when alert appaers doesnt effect background visuals and position*/
 .alert-overlay {
     position: fixed;
     inset: 0;
@@ -665,6 +765,8 @@ option {
     z-index: 999;
 }
 
+
+/* background for alert text box controls size, position, and paper image */
 .alert-box {
     background-image: url("../images/oldpaper-edge1.png");
     background-size: 100% 100%;
@@ -675,6 +777,8 @@ option {
     font-size: 20px;
 }
 
+
+/* clickable button inside alert controls size, font, and border */
 .alert-box button {
     margin-top: 20px;
     font-family: 'Rye', sans-serif;
@@ -685,10 +789,14 @@ option {
     cursor: pointer;
 }
 
+
+/* hides elements when class is applied */
 .hidden {
     display: none;
 }
 
+
+/* reset text position on page */
 .reset {
     position:absolute;
     top: 15px;
@@ -696,9 +804,14 @@ option {
     font-size: large;
 }
 
+
+/* reset button size and position */
 .resetbutton {
     width: 15px;
     height: 15px;
     position:absolute;
     left: 30px;
 }
+
+
+/*---victory-makeup.js css code END----*/
