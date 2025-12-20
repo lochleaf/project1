@@ -12,7 +12,7 @@ html, body {
 
 /*this is the backgound of the page only one image*/
 html{
-    background-image: url("images/background-final-assignemnt.png");
+    background-image: url("../images/background-final-assignemnt.png");
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
@@ -20,7 +20,7 @@ html{
 
 /*this is background for paper at the top of the page for nav system*/
 .paper {
-    background-image: url("images/oldpaper-edgehalf1.png");
+    background-image: url("../images/oldpaper-edgehalf1.png");
     background-repeat: no-repeat;
     position: absolute;
     top: -25%;
@@ -67,12 +67,12 @@ html{
 
 @font-face {
     font-family: 'Rye';
-    src: url(font-rye/Rye-Regular.ttf);
+    src: url("../font-rye/Rye-Regular.ttf");
 }
 
 @font-face {
     font-family: 'Rouge';
-    src: url("font-rouge-script/RougeScript-Regular.ttf");
+    src: url("../font-rouge-script/RougeScript-Regular.ttf");
 }
 
 /*----mainpage.html css code----*/
@@ -104,7 +104,7 @@ h2 {
 
 /*border image with paper edge for the text deal*/
 .boder-img {
-    background-image: url("images/oldpaper-edge1.png");
+    background-image: url("../images/oldpaper-edge1.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 400px;
@@ -269,7 +269,7 @@ textarea {
 
 /*background for list and sizing of the img */
 .backgroundlist {
-    background-image: url("images/oldpaper-edge1.png");
+    background-image: url("../images/oldpaper-edge1.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     box-sizing: border-box;
@@ -294,7 +294,7 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("images/oldpaper-edge1.png");
+    background-image: url("../images/oldpaper-edge1.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     box-sizing: border-box;
@@ -318,7 +318,7 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("images/oldpaper-edge1.png");
+    background-image: url("../images/oldpaper-edge1.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     box-sizing: border-box;
@@ -342,7 +342,7 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("images/oldpaper-edge1.png");
+    background-image: url("../images/oldpaper-edge1.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     box-sizing: border-box;
@@ -366,7 +366,7 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("images/oldpaper-edge1.png");
+    background-image: url("../images/oldpaper-edge1.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     box-sizing: border-box;
@@ -390,7 +390,7 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("images/oldpaper-edge1.png");
+    background-image: url("../images/oldpaper-edge1.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     box-sizing: border-box;
@@ -414,7 +414,7 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("images/oldpaper-edge1.png");
+    background-image: url("../images/oldpaper-edge1.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     box-sizing: border-box;
@@ -462,7 +462,7 @@ textarea {
     font-size: 50px;
     position: fixed;
     top: 150px;
-    background-image: url("images/oldpaper-edge1.png");
+    background-image: url("../images/oldpaper-edge1.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     box-sizing: border-box;
@@ -481,7 +481,7 @@ textarea {
     font-size: 22px;
     position: fixed;
     top: 150px;
-    background-image: url("images/oldpaper-edge1.png");
+    background-image: url("../images/oldpaper-edge1.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     box-sizing: border-box;
@@ -500,7 +500,7 @@ textarea {
     font-size: 22px;
     position: fixed;
     top: 150px;
-    background-image: url("images/oldpaper-edge1.png");
+    background-image: url("../images/oldpaper-edge1.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     box-sizing: border-box;
@@ -523,7 +523,7 @@ textarea {
     justify-content: center;
     align-items: center;
 
-    background-image: url("images/oldpaper-edge1.png");
+    background-image: url("../images/oldpaper-edge1.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 
@@ -542,7 +542,7 @@ textarea {
     justify-content: center;
     align-items: center;
 
-    background-image: url("images/oldpaper-edge1.png");
+    background-image: url("../images/oldpaper-edge1.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 
@@ -574,7 +574,7 @@ option {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("images/oldpaper-edge1.png");
+    background-image: url("../images/oldpaper-edge1.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     box-sizing: border-box;
@@ -629,7 +629,7 @@ option {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("images/oldpaper-edge1.png");
+    background-image: url("../images/oldpaper-edge1.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     box-sizing: border-box;
@@ -656,7 +656,7 @@ option {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    background-image: url("images/oldpaper-edge1.png");
+    background-image: url("../images/oldpaper-edge1.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     box-sizing: border-box;
@@ -677,7 +677,7 @@ option {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("images/oldpaper-edge1.png");
+    background-image: url("../images/oldpaper-edge1.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     box-sizing: border-box;
@@ -710,7 +710,7 @@ option {
     font-size: 55px;
     position: fixed;
     top: 150px;
-    background-image: url(".../images/oldpaper-edge1.png");
+    background-image: url("../images/oldpaper-edge1.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     box-sizing: border-box;
@@ -768,7 +768,7 @@ option {
 
 /* background for alert text box controls size, position, and paper image */
 .alert-box {
-    background-image: url(".../images/oldpaper-edge1.png");
+    background-image: url("../images/oldpaper-edge1.png");
     background-size: 100% 100%;
     width: 420px;
     padding: 40px;
