@@ -516,14 +516,14 @@ option {
     width: 850px;
     height: 464px;
     position: fixed;
-    top: 53%;
+    top: 55%;
     left: 24%;
     transform: translateX(-50%);
     padding: 60px;
     flex-direction: column;
     text-align: center;
     font-family: 'Rouge', sans-serif;
-    font-size: 26px;
+    font-size: 32px;
     line-height: 0.9;
     word-spacing: normal;
 
@@ -566,9 +566,9 @@ option {
     padding: 60px;
     flex-direction: column;
     text-align: center;
-    font-family: 'Rouge', sans-serif;
-    font-size: 26px;
-    line-height: 0.9;
+    font-family: 'Rye', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
     word-spacing: normal;
 
 }
@@ -576,24 +576,18 @@ option {
 .infoaboutus2 {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     background-image: url(../images/oldpaper-edge1.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     box-sizing: border-box;
-    width: 450px;
-    height: 260px;
+    width: 400px;
+    height: 240px;
     position: fixed;
-    top: 73%;
+    top: 76%;
     left: 14%;
     transform: translateX(-50%);
-    padding: 60px;
-    flex-direction: column;
-    text-align: center;
-    font-family: 'Rouge', sans-serif;
-    font-size: 26px;
-    line-height: 0.9;
-    word-spacing: normal;
+    padding-bottom: 15px;
 
 }
 
@@ -618,7 +612,12 @@ option {
     font-size: 26px;
     line-height: 0.9;
     word-spacing: normal;
+}
 
+.textlogo {
+    font-family: 'Rouge', sans-serif;
+    font-size: 26px;
+    line-height: 0.9;
 }
 
 .support {
@@ -639,3 +638,11 @@ option {
     justify-content: center;
 }
 
+.logowinged {
+    width: 170px;
+    height: 163px;
+    position: absolute;
+    top: 840px;
+    left: 174px;
+    z-index: 10;
+}
